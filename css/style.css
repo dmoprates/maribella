@@ -1,0 +1,93 @@
+/*Formatações geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #d2d2c1;
+}
+#container {
+    width: 1280px;
+    min-width: 750px;
+    margin: auto;
+    font: 16px "Trebuchet MS", Helvetica, sans-serif;
+}
+.centro {
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+/*Cabeçalho da página*/
+#menu {
+    background: #c5c5b2;
+    padding: 18px;
+    text-align: center;
+}
+#menu a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: uppercase;
+}
+/*Corpo da página*/
+section {
+    width: 100%;
+    margin: auto;
+}
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+p {
+    padding: 5px 0;
+    font-size: 0.9em;
+    
+}
+.content {
+    width: 900px;
+    text-align: center;
+}
+/*Rodapé*/
+footer {
+    width: 100%;
+    margin: auto;
+    color: #4b566a;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px;
+    background: #c5c5b2;
+}
+/*Biografia*/
+.img-bio {
+    border: 10px solid #c3c3ae;
+    width: 600px;
+}
+/*Campanha*/
+.campanha{
+    width: 900px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.campanha img {
+    width: 450px;
+    margin: 5px;
+}
+.campanha .descricao h2 {
+    font-size: 1.3em;
+    color: #4b566a;
+    font-weight: 500;
+}
+.campanha .descricao p {
+    font-size: 1em;
+    color: #424b5c;
+    font-weight: 400;
+}
+video{
+    width: 450px;
+    height: 500px;
+}
